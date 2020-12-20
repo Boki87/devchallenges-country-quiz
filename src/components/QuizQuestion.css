@@ -1,0 +1,16 @@
+.quiz_container__question {
+    margin-top: 60px;
+    min-height: 50px;
+    width: 100%;
+    padding: 0px 20px;
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: var(--text-dark);
+    margin-bottom: 20px;
+}
+
+.flag {
+    height: 70px;
+    margin-bottom: 10px;
+    display:block;
+}

@@ -7,3 +7,19 @@
     justify-content: center;
     overflow: auto;
 }
+
+footer {
+    position: absolute;
+    bottom: 0px;left:0px;
+    height:40px;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+footer > a {
+    color: #fff;
+    text-decoration: none;
+}

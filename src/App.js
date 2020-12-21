@@ -18,6 +18,9 @@ function App() {
         <Result />
       }
 
+      <footer>
+        Bojan Peric&nbsp;<a href="https://devchallenges.io/">@DevChalenges.io</a>
+      </footer>
     </div>
   );
 }

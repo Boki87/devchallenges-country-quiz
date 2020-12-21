@@ -32,7 +32,7 @@ const QuizQuestion = () => {
             {correctAnswer && correctAnswer.capital} is the capital of
             </div> :
             <div className='quiz_container__question'>
-                <img className='flag' src={correctAnswer.flag} alt=""/>
+                <img className='flag' src={correctAnswer && correctAnswer.flag} alt=""/>
                 <span>Which country does this flag belong to?</span>
             </div>
         }
